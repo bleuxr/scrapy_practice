@@ -17,3 +17,9 @@ class TestItem(scrapy.Item):
     id = scrapy.Field()
     name = scrapy.Field()
     description = scrapy.Field()
+
+class Product(scrapy.Item):
+    name=scrapy.Field()
+    price=scrapy.Field()
+    stock=scrapy.Field()
+    last_updated=scrapy.Field()
